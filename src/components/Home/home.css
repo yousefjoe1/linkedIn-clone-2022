@@ -1,0 +1,31 @@
+.home-container {
+  margin-top: 20px;
+}
+
+.cover-img {
+  background: url("https://imageio.forbes.com/specials-images/imageserve/6063d051926c75ddb9a9cbd7/In-this-photo-illustration-a-LinkedIn-logo-of-business-and---/960x0.jpg?fit=bounds&format=jpg&width=960")
+    no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+.welcome-col h2 {
+  font-size: 50px;
+  color: rgb(179, 156, 127);
+  text-shadow: 1px 1px 2px burlywood;
+  margin-bottom: 40px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.links a {
+  border: 1px solid gray;
+  text-decoration: none;
+  max-width: 350px;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 10px;
+}

@@ -1,0 +1,49 @@
+.global-nav a {
+  text-decoration: none;
+  color: blue;
+  margin: 0;
+  padding: 0;
+}
+
+.global-nav img {
+  width: 120px;
+}
+
+.global-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.global-nav ul a:nth-child(1) {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 17px;
+  margin: 10px;
+  color: rgb(114, 114, 114);
+  transition: all 0.5s ease;
+}
+
+.global-nav ul a:nth-child(1):hover {
+  background-color: rgb(197, 197, 197);
+  color: rgb(42, 42, 42);
+}
+
+.global-nav ul a:nth-child(2) {
+  border: 1px solid dodgerblue;
+  padding: 5px 15px;
+  border-radius: 10px;
+  font-size: 17px;
+  margin: 10px;
+  color: dodgerblue;
+  font-weight: 600;
+  transition: all 0.1s ease;
+}
+
+.global-nav ul a:nth-child(2):hover {
+  background-color: rgb(130, 187, 243);
+  border: 1px solid rgb(65, 123, 182);
+  color: beige;
+}

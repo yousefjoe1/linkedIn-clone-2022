@@ -1,0 +1,20 @@
+.header {
+    background-color: lightgray;
+    /* padding: 5px; */
+}
+
+.dachIcon_search img {
+    width: 50px;
+    height: 40px;
+    margin: 0 10px 0 0;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dach_links_Container {
+    display: flex;
+}

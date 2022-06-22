@@ -1,0 +1,28 @@
+.dach_nav_link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    margin: 0 3px;
+}
+
+.dach_nav_link:hover {
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+}
+
+.dach_nav_link span:nth-child(1){
+    font-size: 20px;
+}
+.dach_nav_link span:nth-child(2){
+    font-size: 13px;
+}
+
+/* ----------------- Hide Link text -----------------------*/
+@media (max-width: 800px){
+    .dach_nav_link .link_text {
+        display: none;
+    }
+}
