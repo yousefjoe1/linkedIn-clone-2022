@@ -31,4 +31,23 @@
     line-height: 4px;
     font-size: 13px;
     font-weight: bold;
+    margin-top: 12px;
+}
+
+.post_feture {
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.post_feture button {
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+    border-radius: 9px;
+}
+
+.post_feture button:hover {
+    background-color: lightgray;
 }

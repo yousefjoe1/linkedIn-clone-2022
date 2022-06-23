@@ -5,6 +5,10 @@ import { useState } from "react";
 import st from "./posts.module.css";
 
 import { GiEarthAfricaEurope } from "react-icons/gi";
+import { AiOutlineLike } from "react-icons/ai";
+import { FaRegCommentDots } from "react-icons/fa";
+import { ImShare } from "react-icons/im";
+import { FiSend } from "react-icons/fi";
 
 const Posts = () => {
   const [posts, setPosts] = useState([]);
@@ -43,8 +47,26 @@ const Posts = () => {
             </div>
             <button className={`${st.follow}`}>Follow+</button>
           </div>
+          {/* ----------- Post Text -------------- */}
           <div className={st.post_body}>
             <p>{posts[i].body}</p>
+          </div>
+
+          {/* ------------- like share comment send ---------------  */}
+
+          <div className={`${st.post_feture}`}>
+            <button>
+              <AiOutlineLike /> Like
+            </button>
+            <button>
+              <FaRegCommentDots /> Comment
+            </button>
+            <button>
+              <ImShare /> Share
+            </button>
+            <button>
+              <FiSend /> Send
+            </button>
           </div>
         </div>
       ))}
