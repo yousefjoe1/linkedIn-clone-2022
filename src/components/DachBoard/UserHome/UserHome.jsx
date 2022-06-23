@@ -1,6 +1,7 @@
 import React from "react";
 import CenterContent from "./CenterContent/CenterContent";
 import LeftContent from "./LeftContent/LeftContent";
+import RightContent from "./RightContent/RightContent";
 
 import st from "./userhome.module.css";
 
@@ -18,7 +19,7 @@ const UserHome = () => {
         <div
           className={`${st.right_content} col-lg-3 col-md-3  d-sm-none d-md-block d-xs-none`}
         >
-          Right Side
+          <RightContent />
         </div>
       </div>
     </section>

@@ -1,0 +1,47 @@
+.right_content_section {
+    height: 400vh;
+}
+
+.recomm_addFeed {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: lightgray;
+    position: sticky;
+    top: 10px;
+}
+
+
+.suggestions {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    margin: 15px 3px;
+}
+.suggestions img {
+    width: 60px;
+    margin: 5px 10px 5px 1px;
+}
+
+.text_info {
+    line-height: 15px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.suggestions button {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    border: 1px solid lightslategray;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
+@media (max-width: 1005px){
+    .right_content_section {
+        display: none!important;
+    }
+}

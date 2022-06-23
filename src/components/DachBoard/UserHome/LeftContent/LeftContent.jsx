@@ -36,11 +36,11 @@ const LeftContent = () => {
           <Accordion.Item eventKey="1">
             <div className={`${st.recent_icon} `}>
               <span>Recent</span>
-              <Accordion.Header className={`${st.acc_header}`}>
-                <AiOutlineArrowDown className={`${st.show_recent_icon}`} />
-              </Accordion.Header>
+              <Accordion.Header
+                className={`${st.acc_header}`}
+              ></Accordion.Header>
             </div>
-            <br />
+
             <br />
             <Accordion.Body>
               <p>Lorem ipsum dolor sit amet consectetur.</p>
@@ -50,20 +50,18 @@ const LeftContent = () => {
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
-        <hr />
+
         <Accordion defaultActiveKey={["1"]} alwaysOpen>
           <Accordion.Item eventKey="1">
             <div className={`${st.recent_icon} `}>
               <span>Groups</span>
-              <Accordion.Header className={`${st.acc_header}`}>
-                <AiOutlineArrowDown className={`${st.show_recent_icon}`} />
-              </Accordion.Header>
+              <Accordion.Header
+                className={`${st.acc_header}`}
+              ></Accordion.Header>
             </div>
-            <br />
+
             <br />
             <Accordion.Body>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
               <p>Lorem ipsum dolor sit amet consectetur.</p>
               <p>Lorem ipsum dolor sit amet consectetur.</p>
               <p>Lorem ipsum dolor sit amet consectetur.</p>

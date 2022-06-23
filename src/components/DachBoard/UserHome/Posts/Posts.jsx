@@ -27,6 +27,10 @@ const Posts = () => {
     getUsersAndPosts();
   }, []);
 
+  if (!posts && !usres) {
+    return "Looding ..................";
+  }
+
   return (
     <section className={`${st.posts_section}`}>
       {usres?.map((user, i) => (

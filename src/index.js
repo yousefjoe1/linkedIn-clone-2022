@@ -6,7 +6,8 @@ import { HashRouter } from 'react-router-dom';
 
 import '../node_modules/react-bootstrap/dist/react-bootstrap'
 
-// import '../node_modules/bootstrap/dist/css/min.css'
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
+
 
 ReactDOM.render(
   <HashRouter>
