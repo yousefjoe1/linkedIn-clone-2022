@@ -8,7 +8,9 @@ const Dach = () => {
   return (
     <section className={`${st.dachSection}`}>
       <DachNav />
-      <Outlet />
+      <div className="container">
+        <Outlet />
+      </div>
     </section>
   );
 };

@@ -7,7 +7,7 @@ const Join = () => {
   const navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate("/dachboard");
+    navigate("/dachboard/home");
   };
   return (
     <div className="join-container container-fluid">

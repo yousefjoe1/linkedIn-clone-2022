@@ -1,0 +1,30 @@
+.dach_btns_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aliceblue; */
+    width: 200px;
+    height: 100%;
+    margin-left: 5px;
+}
+
+.dach_btns_container button {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    justify-content: center;
+}
+
+.dach_btns_container button span:nth-child(1){
+    width: 30px;
+    height: 30px;
+}
+.dach_btns_container button span:nth-child(2){
+    font-size: 13px;
+}
+
+.dach_btns_container .meBtn img {
+    width: 100%;
+}

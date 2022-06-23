@@ -16,7 +16,7 @@ const Signin = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    navigate("/dachboard");
+    navigate("/dachboard/home");
   };
 
   return (

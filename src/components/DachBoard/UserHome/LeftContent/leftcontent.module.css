@@ -1,0 +1,52 @@
+.left_section {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.user_stuff {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.user_stuff hr {
+    border: 1px solid rgb(116, 116, 116);
+    width: 100%;
+}
+
+
+.img_name_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('https://www.officefriendly.co.uk/wp-content/uploads/2018/06/Linkedin1.jpg') no-repeat;
+    background-size: 100% 60px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.user_stuff img {
+    width: 70px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+.rc_gr {
+    line-height: 17px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.recent_icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.show_recent_icon {
+    width: 10px; 
+    height: 20px;
+    background-color: white;
+}

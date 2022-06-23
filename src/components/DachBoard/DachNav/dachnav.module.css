@@ -18,3 +18,16 @@
 .dach_links_Container {
     display: flex;
 }
+
+.dachIcon_search {
+    /* background-color: black; */
+    width: 100%;
+    transition: all 1s ease;
+}
+
+.dachIcon_search input:focus {
+    width: 50%;
+    transition: all 1s ease;
+    outline: none;
+    border: none;
+}

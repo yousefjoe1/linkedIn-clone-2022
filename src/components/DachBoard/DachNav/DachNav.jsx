@@ -10,6 +10,7 @@ import { BsBriefcaseFill } from "react-icons/bs";
 import { AiOutlineMessage } from "react-icons/ai";
 import { MdNotifications } from "react-icons/md";
 import DachButtons from "../DachButtons/DachButtons";
+import SearchInput from "../SearchInput/SearchInput";
 
 const DachNav = () => {
   return (
@@ -23,7 +24,8 @@ const DachNav = () => {
               alt=""
             />
           </Link>
-          <input type="text" />
+
+          <SearchInput />
         </div>
 
         {/* ----------------------- Dachboard Links ---------------------  */}
