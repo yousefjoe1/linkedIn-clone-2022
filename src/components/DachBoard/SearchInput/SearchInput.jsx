@@ -4,19 +4,27 @@ import Modal from "react-bootstrap/Modal";
 
 import st from "./searchinput.module.css";
 
-const SearchInput = () => {
-  const [show, setShow] = useState(false);
+import { BiSearchAlt2 } from "react-icons/bi";
 
-  // const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+const SearchInput = () => {
+  const [searchicon, setSearchicon] = useState(false);
+  window.onresize = () => {
+    if (window.innerWidth < 995) {
+      setSearchicon(true);
+    } else {
+      setSearchicon(false);
+    }
+  };
+
   return (
     <>
-      <input onClick={handleShow} type="text" />
-      {/* <Modal className={st.modal} show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <input onClick={handleShow} type="text" />
-        </Modal.Header>
-      </Modal> */}
+      {!searchicon ? (
+        <input type="text" />
+      ) : (
+        <button>
+          <BiSearchAlt2 />
+        </button>
+      )}
     </>
   );
 };

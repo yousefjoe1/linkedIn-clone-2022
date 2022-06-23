@@ -5,7 +5,7 @@
 .recomm_addFeed {
     padding: 10px;
     border-radius: 8px;
-    background-color: lightgray;
+    background-color: rgb(235, 235, 235);
     position: sticky;
     top: 10px;
 }
